@@ -38,7 +38,7 @@
 	        <div class="col-md-6" v-for="(movie, index) in movies">
 	            <div class="thumbnail">
 
-						<img class="poster"  :src="movies[index].posters[0]"/>
+						<img class="poster"  :src="movies[index].posters[movie.posterindex]" @click="posterClick(index)" />
 						<div class="imageInfo">{{ movies[index].posterindex}}</div>
 
 						<p class="title">{{movies[index].title}} ({{movies[index].country}})</p>
@@ -60,7 +60,7 @@
 	    <div class="footer">
 	      <div class="container">
 			<a id="github" class="btn btn-lg btn-warning">
-				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{movies[0].owner}} {{movies[0].github}}
+				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{owner}} {{github}}
 	  		</a>
 	      </div>
 	    </div>
