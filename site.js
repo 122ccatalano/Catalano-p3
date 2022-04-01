@@ -82,6 +82,9 @@ const vue_app = Vue.createApp({
               else {
                 this.movies[index].posterindex++;
               }
+            },
+            timeText(minutes) {
+              minutes = movies[index].runtime;
             }
 
       }
