@@ -68,5 +68,20 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Scarface",
+            "iscore": 8.3,
+            "rating": "R",
+            "runtime": 170,
+            "released": [1983, 12, 1],
+            "country": "USA",
+            "posters": ["img/schindlerslist.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0086250/",
+            "website": "https://www.imdb.com/title/tt0086250/",
+            "likes": 882,
+            "dislikes": 92,
+            "posterindex": 0
       }
+      
 ]
